@@ -1,12 +1,44 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+.container2 {
+    text-align: center;
+}
+.container2 .middle-img {
+    margin: 0 12px;
+}
+
+.buyers{
+	font-weight: normal;
+	width: 90%;
+	height: auto;
+	display: inline-block;
+	line-height: 1.2em;
+	font-size: 1.5em;
+	overflow: hidden;
+	margin-left: 5.0%;
+
+}
+
+.buyers p{
+font-size: 14px;
+
+	font-weight: normal;
+}
+
+.selector-container{
+
+position: relative;
+font-size: 12px;
+}
+
+
 * {
 	padding: 0px;
 	margin: 0px;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
 }
 body {
 	height: auto;
@@ -17,6 +49,7 @@ body {
 	background-repeat: repeat;
 	margin: 0px auto;
 }
+
 #wrapper {
 	width: 80%;
 	height: auto;
@@ -27,6 +60,7 @@ body {
 	background: rgba(51, 102, 151, 0.75); /* 75% transparent */
 	position: relative;
 }
+
 #title {
 	background-image: url(../images/khc_logo.png);
 	background-repeat: no-repeat;
@@ -287,6 +321,14 @@ nav a#pull {
 	margin: 2% auto;
 	display: compact;
 }
+#tight2 {
+	margin-top: 5em;
+	margin-left: 15.0%;
+	width: 70%;
+	height: auto;
+	background-color: white;
+
+}
 .mobilesOnly {
 	visibility: hidden;
 }
@@ -301,9 +343,10 @@ footer {
 	position: relative;
 }
 img {
-	max-width: 100% !important;
+	/*max-width: 100% !important;
 	height: auto;
-	display: block;
+	display: block;*/
+	padding: 1em;
 }
 
 @media screen and (max-width: 768px) {

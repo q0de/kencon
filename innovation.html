@@ -1,80 +1,112 @@
 <!doctype html>
 <html>
-	<head>
-	<meta charset="UTF-8">
-	<title>Kencon Innovation</title>
-	<link href="css/khc_global.css" rel="stylesheet" type="text/css">
-	<link href="css/normalize.css" rel="stylesheet" type="text/css">
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,700,700italic,400italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:800italic' rel='stylesheet' type='text/css'>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script>
-		$(function() {
-			var pull 		= $('#pull');
-				menu 		= $('nav ul');
-				menuHeight	= menu.height();
-
-			$(pull).on('click', function(e) {
-				e.preventDefault();
-				menu.slideToggle();
-			});
-
-			$(window).resize(function(){
-        		var w = $(window).width();
-        		if(w > 320 && menu.is(':hidden')) {
-        			menu.removeAttr('style');
-        		}
-    		});
-		});
-	</script>
-	</head>
-
-	<body>
-    <div id="wrapper">
-      <header>
-        <section id="title"> </section>
-        <nav class="menu">
-          <ul class="menu">
-            <li><a href="index.html">SITE HOME</a></li>
-            <li><a href="about.html">ABOUT KSP</a></li>
-            <li><a href="products.html">PRODUCTS</a></li>
-            <li><a href="innovation.html">INNOVATION</a></li>
-            <li><a href="testimonials.html">TESTIMONIALS</a></li>
-            <li><a href="contact.html">CONTACT US</a></li>
-          </ul>
+  <head>
+    <meta charset="UTF-8">
+    <title>Kencon Innovation</title>
+    <link href="css/khc_global.css" rel="stylesheet" type="text/css">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,700,700italic,400italic' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:800italic' rel='stylesheet' type='text/css'>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script>
+          $(function() {
+                var pull    = $('#pull');
+                  menu    = $('nav ul');
+                menuHeight  = menu.height();
+            $(pull).on('click', function(e) {
+              e.preventDefault();
+              menu.slideToggle();
+            });
+            $(window).resize(function(){
+          var w = $(window).width();
+          if(w > 320 && menu.is(':hidden')) {
+            menu.removeAttr('style');
+          }
+          });
+          });
+        </script>
+      </head>
+      <body>
+        <div id="wrapper">
+          <header>
+          <section id="title"> </section>
+          <nav class="menu">
+            <ul class="menu">
+              <li><a href="index.html">SITE HOME</a></li>
+              <li><a href="about.html">ABOUT KSP</a></li>
+              <li><a href="products.html">PRODUCTS</a></li>
+              <li><a href="innovation.html">INNOVATION</a></li>
+              <li><a href="testimonials.html">TESTIMONIALS</a></li>
+              <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
           <a href="#" id="pull">Menu</a> </nav>
-      </header>
-      <div id="innovation">
-        <h3><em>At Kencon we believe the future is not in duplication, but parts innovation.</em></h3>
-        <img src="images/imgleft.jpg" alt="Kencon Part Name"/><img src="images/imgrt.jpg" alt=""/>
-        <h4>With our in house engineering team, we are able to develop and produce parts that are not available to other wholesalers.</h4>
+        </header>
+        <div id="innovation">
+          <h3><em>At Kencon we believe the future is not in duplication, but parts innovation.</em></h3>
+          <img src="images/imgleft.jpg" alt="Kencon Part Name"/><img src="images/imgrt.jpg" alt=""/>
+          <h4>With our in house engineering team, we are able to develop and produce parts that are not available to other wholesalers.</h4>
         <img src="images/imgbl.jpg" alt=""/><img src="images/imbr" alt=""/></div>
-      <div id="specific">
-        <h4><em>Two products we designed are patent pending, and backed by our company warranty:</em></h4>
-        <h2>Roto-Vise</h2>
-        <img src="images/dummy.jpg" alt=""/>
-        <p>
-Roto-vise is an expandable bed door latch - made out of strong automotive grade plastic. Kencon is the sole supplier and producer of this patented product, allowing us to be the first to market a bed door latch that closes with such ease and safety.</p><p><a href="https://drive.google.com/file/d/0BznKuQvWckvORVR6NlVzY25IY28/edit?usp=sharing">
-Roto-vise PDF</a> 
-        <h2>"Next Gen" Lock System</h2>
-        <img src="images/dummya.jpg" alt=""/>
-<p>Next Gen locking system comes in two different styles and is used for storage, luggage, containers, and RV safe keepings.</p>
-        <p>Kencon has put their twist on a normal locking system and has implemented technology enabling the end user to unlock the system through mobile ap technology. This revolutionary smart phone compatibility allows the end user to make sure their investments are safe.</p>
-         <h5><em>If you have a product inquiry, call us directly at:</em></h5>
-      <h3>574-848-5252</h3>
+        <div id="specific">
+          <h4><em>Two products we designed are patent pending, and backed by our company warranty:</em></h4>
+          <h2>Roto-Vise</h2>
+          <img src="images/dummy.jpg" alt=""/>
+          <p>
+          Problem; Expandable RV’s with fold out bed doors – Locks are too high off the 
+
+ground for most RV owners to reach safely. Many must use step ladders or other 
+
+unsafe measures to work latches. Also, water leaks due to non-adjustable nature 
+
+of competitors latches.</p>
+
+<p>Solution; KSP’s RotoVise Lock System. With the RotoVise locks, the clamping 
+
+feature is near the top of the door where it needs to be to discourage water leaks. 
+
+However, for the first time, the operator handle actuator is at the bottom of 
+
+the door where it is easily reached. The RotoVise clamps the door shut with less 
+
+effort on the operators part than other locks, and can be adjusted by your dealer 
+
+should you need more clamping force in the future. The RotoVise incorporates 
+
+a built in locking feature for security. The RotoVise is constructed of automotive 
+
+grade “Super Tough” reinforced thermoplastics with aluminum and stainless steel 
+
+hardware for corrosion resistance. RotoVise Locks – for stress-free camping!</p>
+
+
+          <h2>The “Fresh Concept” NEXGEN Compartment Lock Family</h2>
+          <img src="images/dummya.jpg" alt=""/>
+          <p><i>The shortest route to a better product is through innovation<i>.The NexGen family of locks exhibits the type of innovation that makes your RV owner experience a more pleasurable one.</p>
+          <p>You want a lock that slams and latches securely – NexGen does it better. You
+          want a lock with multiple keycodes for extra security – NexGen delivers. You
+          want a lock that doesn’t require chopping unnecessary holes and channels for
+          installation, thus weakening your door and promoting leaks – NexGen innovated
+          out the need for such drawbacks. You want a lock that can be upgraded to self-
+          contained electronic actuation – NexGen can. You want a lock that lasts and
+          lasts, so you don’t ever need to think about it – NexGen has been tested to over
+          50,000 slam cycles with no signs of failure! NexGen - a lock you can trust, from
+          a company OEM manufacturers have trusted for over 25 years – Kencon Specialty
+          Products Inc.</p>
+          <p>NexGen locks; Locking, Non-Locking, Electronic actuation, More versions on the way.</p>
+          <h5><em>If you have a product inquiry, call us directly at:</em></h5>
+          <h3>574-848-5252</h3>
+        </div>
+        
+        <div id="phone"><a class="mobilesOnly" href="tel:5748485252">(574) 848-5252</a></div>
+        <footer>
+          <h2>KENCON SPECIALTY PRODUCTS</h2>
+          <h3>P.O. Box 737</h3>
+          <h3>Bristol, Indiana 46507</h3>
+          <h6>&copy;2013</h6>
+        </footer>
       </div>
-     
-      <div id="phone"><a class="mobilesOnly" href="tel:5748485252">(574) 848-5252</a></div>
-      <footer>
-        <h2>KENCON SPECIALTY PRODUCTS</h2>
-        <h3>P.O. Box 737</h3>
-        <h3>Bristol, Indiana 46507</h3>
-        <h6>&copy;2013</h6>
-      </footer>
-    </div>
-</body>
-</html>
+    </body>
+  </html>
