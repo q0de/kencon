@@ -46,7 +46,7 @@
             <li><a href="about.html">ABOUT KSP</a></li>
             <li><a href="products.html">PRODUCTS</a></li>
             <li><a href="innovation.html">INNOVATION</a></li>
-            <li><a href="testimonials.html">TESTIMONIALS</a></li>
+            <li><a href="testimonials.php">TESTIMONIALS</a></li>
             <li><a href="contact.html">CONTACT US</a></li>
           </ul>
           <a href="/testimonials.html#" id="pull">Menu</a></nav>
@@ -71,4 +71,5 @@
     </div>
 
 
-</body></html>
+</body>
+</html>
