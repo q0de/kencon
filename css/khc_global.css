@@ -113,6 +113,7 @@ footer h3 {
 	position: relative;
 }
 #text h5 {
+	clear: both;
 	color: black;
 	font-size: 1.0em;
 	font-family: 'Roboto Condensed', Helvetica, Verdana, Arial, sans-serif;
