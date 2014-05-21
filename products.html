@@ -1,376 +1,340 @@
 <!doctype html>
 <html>
   <head>
-  <meta charset="UTF-8">
-  <title>Kencon Products</title>
-
- 
-  <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,700,700italic,400italic' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:800italic' rel='stylesheet' type='text/css'>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-
- <link href="/css/fancyselect.css" rel="stylesheet" type="text/css">
-    <link href="/css/jquery.fancybox.css"  rel="stylesheet" type="text/css">
-    <link href="/css/jquery.fancybox-buttons.css"  rel="stylesheet" type="text/css">
-    <link href="/css/jquery.fancybox-thumbs.css rel="stylesheet"" type="text/css" >
-
-  <link href="/css/khc_global.css" rel="stylesheet" type="text/css">
-  <link href="/css/normalize.css" rel="stylesheet" type="text/css">
-
-    <script src="/js/jquery-1.10.2.js"></script>
-    <script src="/js/prefixfree.min.js" rel="stylesheet"></script>
-    <script src="/js/jquery.mixitup.min.js"></script>
-    <script src="/js/jquery.ba-throttle-debounce.min.js"></script>
-    <script src="/js/fancySelect.js"></script>
-    <script src="/js/jquery.fancybox.pack.js"></script>
-    <script src="/js/jquery.fancybox-buttons.js" type="text/javascript"></script>
-    <script src="/js/jquery.fancybox-media.js" type="text/javascript"></script>
-    <script src="/js/jquery.fancybox-thumbs.js" type="text/javascript"></script>
-
-
-
-
-  <script>
-    $(function() {
-      var pull    = $('#pull');
-        menu    = $('nav ul');
-        menuHeight  = menu.height();
-
-      $(pull).on('click', function(e) {
-        e.preventDefault();
-        menu.slideToggle();
-      });
-
-      $(window).resize(function(){
-            var w = $(window).width();
-            if(w > 320 && menu.is(':hidden')) {
-              menu.removeAttr('style');
-            }
-        });
-    });
-  </script>
-  </head>
-
-  <body>
-
-    <div id="wrapper">
-      <header>
-        <section id="title">
-        </section>
-        <nav class="menu">
-          <ul class="menu">
-            <li><a href="index.php">SITE HOME</a></li>
-            <li><a href="about.html">ABOUT KSP</a></li>
-            <li><a href="products.html">PRODUCTS</a></li>
-            <li><a href="innovation.html">INNOVATION</a></li>
-            <li><a href="Testimonials.html">TESTIMONIALS</a></li>
-            <li><a href="contact.html">CONTACT US</a></li>
-          </ul>
-          <a href="#" id="pull">Menu</a> </nav>
-      </header>
-      
-     <style type="text/css">
-    body{
-    overflow: hidden;
-    overflow-y:auto;
-    padding-bottom: 50px;
-    }
-    .project{
-    width: 80%;
-    margin: auto;
-    margin-top:40px;
-    }
-    .project-details{
-    width:60%;
-    min-height: 200px;
-    float: left;
-    }
-
-    .selector-container{
-  
-   bottom: 20px;
-  width: 300px;
-  margin: 25px auto;
-    }
-    .cat-selector{
-   /*width: 40%;*/
-    padding-top:65px;
-    }
-    .cat-selector2{
-   /*width: 40%;*/
-    padding-top:15px;
-    }
-    .project-details h1{
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 20px;
-    }
-    .project-details p{
-    font-size: 14px;
-    line-height: 26px;
-    }
-    .portfolio-items{
-    width: 80%;
-    margin:auto;
-    margin-top: 30px;
-    }
+    <meta charset="UTF-8">
+    <title>Kencon Products</title>
     
-    /*Responsive Grid*/
-    .grid ul{
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    }
-    .grid ul li{
-    list-style-type: none;
-    margin: -3px -2px;
-    padding: 0px;
-    transition:all 0.2s ease;
-    position: relative;
-    cursor: pointer;
-    }
-    .grid ul li img{
-    width: 100%;
-    float: left;
-    }
-       .grid ul li p{
-    width: 100%;
-    margin: 5%;
-    float: left;
-    }
-    /*Mixitup*/
-    .mix{
-    opacity: 0;
-    display: none;
-    }
- 
-    /* Media Queries */
-    /* Mobile Portrait Size */
-
-@media only screen and (max-width: 959px) {
-  
-}
-    </style>
-
-  </head>
-  <body>
-   
-  <div id="tight2">
-  <div class="buyers"> 
-    <p>At Kencon Specialty Products we sell a variety of RV, Automotive parts, and accessories. Three major suppliers that we deal directly with are Suspa, Buyer's Products, and Scorpion. To learn more about our exclusive offerings feel free to click on their logos below to be redirected.</p>
-
-  </div> 
-
- <div  class= "container2">    
-<a href="http://www.scorpioncoatings.com/"><img  src="http://i.imgur.com/l8EdSvy.jpg" width="170" > </a> 
-
- <a href="https://drive.google.com/file/d/0BznKuQvWckvORVR6NlVzY25IY28/edit?usp=sharing">
-
-<img  class="middle-img"src="http://i.imgur.com/0fWbyO5.png" width="170"></a>
-
-<a href="http://www.buyersproducts.com/Product-Categories/"><img src="http://i.imgur.com/DTJHJpO.png" width="170" ></a>
-</div>  
-
- </div> 
-
-
-      <div class="selector-container">
-        <div class="cat-selector">
-          <div class="search_auto">
-         <h1><strong>Search</strong> parts</h1>
-          <select class="tags">
-            <option value="">SELECT CATEGORY</option>
-            <option value="mix">ALL</option>
-            <option value="cat0">Category 0</option>
-            <option value="cat1">Category 1</option>
-            <option value="cat2">Category 2</option>
-            <option value="cat3">Category 3</option>
-          </select>
-
-               <div class="cat-selector2">
-          <select class="tags">
-            <option value="">SELECT SPECIFIC PART</option>
-            <option value="mix">ALL</option>
-            <option value="cat12">Specific Part 1</option>
-            <option value="cat9">Specific Part 2</option>
-            <option value="cat10">Specific Part 3</option>
-            <option value="cat11">Specific Part 4</option>
-          </select>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,700,700italic,400italic' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:800italic' rel='stylesheet' type='text/css'>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link href="/css/khc_global.css" rel="stylesheet" type="text/css">
+        <link href="/css/normalize.css" rel="stylesheet" type="text/css">
         
-        </div>
-      </div>
-  
-      </div>
-       </div>
-
-
-
-      <div style="clear:both"></div>
-
-    <div class="portfolio-items grid">
-      <ul id="grid-items">
-        <li class="mix cat0" >
-
-        <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/C0T8jMP.jpg"/></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat1" >
-
-             <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/YtIzvaB.jpg" title="Hosted by imgur.com" /></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat2" >
-  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/4ViI5nH.jpg" title="Hosted by imgur.com" /></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat1" >
-           <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/Hyc4dPc.jpg" title="Hosted by imgur.com"/></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat1 cat2" >
-          <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/VIbN3sM.jpg" title="Hosted by imgur.com"/></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat2" >
-          <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/ruBCeVo.jpg" title="Hosted by imgur.com"/></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat1 cat11" >
-         <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/NHKPmSq.jpg" title="Hosted by imgur.com"/></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat2 cat9" >
-          <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/lAPjfDj.jpg" title="Hosted by imgur.com"/></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat1 cat10" >
-         <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/xgN06Sl.jpg" title="Hosted by imgur.com"/></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat1 cat9" >
-          <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/znyaJGq.jpg" title="Hosted by imgur.com"/></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat2 cat12" >
-          <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/rx5skrN.jpg" title="Hosted by imgur.com"/></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat3" >
-         <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/1j4JtVO.jpg" title="Hosted by imgur.com"/></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat1" >
-        <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/RudcEJY.jpg" title="Hosted by imgur.com"/></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat3" >
-           <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/GtEAJah.jpg" title="Hosted by imgur.com"/></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat1" >
-         <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/L2Lmu8W.jpg" title="Hosted by imgur.com"/></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat3" >
-          <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/lfYFcU0.jpg" title="Hosted by imgur.com"/></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat1" >
-          <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/4yTdXIH.jpg" title="Hosted by imgur.com"/></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat3" >
-         <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/SLwWkv7.jpg" title="Hosted by imgur.com"/></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat2" >
-          <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/YFKhWVL.jpg" title="Hosted by imgur.com"/></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-        <li class="mix cat2" >
-           <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/GYjocR3.jpg" title="Hosted by imgur.com"/></a><p>
-          <STRONG>Title:</STRONG> lorem ipsum
- <br> <STRONG>Part #:</STRONG> 00-0000</p>
-        </li>
-       
-      
-      </ul>
-    </div>
-
-       <footer>
-        <h2>KENCON SPECIALTY PRODUCTS</h2>
-        <h3>19974 County Road 6</h3>
-        <h3>Bristol, Indiana 46507</h3>
-        <h6>&copy;2014 <a href="http://crowdsurfermedia.com/home.html">Crowd Surfer Media</a></h6>
-      </footer>
-    </div>
-
-
-    <script type="text/javascript">
-    var minWidth=230;
-    $(document).ready(function(){
-    //initialize mixitup
-    $('#grid-items').mixitup({});
-    //initialize FancySelect
-    $(".tags").fancySelect().on("change",function(){
-    item = $(this).val();
-    $('#grid-items').mixitup('filter',item);
-    });
-    //handle the responsiveness of the grid & the page
-    $(window).resize($.debounce(250,function(){
-    var w = $(".grid").width();
-    var numberOfItems = parseInt(w/minWidth);
-    var itemWidthinPercentage = 100/numberOfItems;
-    $(".grid ul li").css({width:itemWidthinPercentage+"%"});
-    $('#grid-items').mixitup('sort','random');
-    }));
-    $(window).trigger("resize");
-    //attach an event listener to each list item
-    $(".grid ul").delegate("li","click",function(){
-    var src = $(this).find("img").attr("src");
-   
-    });
-    });
-    </script>
-  
-<script type="text/javascript">
-  $(document).ready(function() {
-
-       $(".test").fancybox({
-  openEffect : 'none',
-      closeEffect : 'none',
-      helpers : {
-        title : { 
-          type : 'inside'
-        }
-      }
+        <link href="/css/fancySelect.css" rel="stylesheet" type="text/css">
+        <link href="/css/jquery.fancybox-1.3.4.css"  rel="stylesheet" type="text/css">
     
-    });
-       });
-</script>
-
-</body>
-</html>
+          <script src="/js/jquery-1.10.2.js"></script>
+          <script src="/js/prefixfree.min.js" rel="stylesheet"></script>
+          <script src="/js/jquery.mixitup.min.js"></script>
+          <script src="/js/jquery.ba-throttle-debounce.min.js"></script>
+          <script src="/js/fancySelect.js"></script>
+          <script src="/js/jquery.fancybox.pack.js"></script>
+          <script src="/js/jquery.fancybox-buttons.js" type="text/javascript"></script>
+          <script src="/js/jquery.fancybox-media.js" type="text/javascript"></script>
+          <script src="/js/jquery.fancybox-thumbs.js" type="text/javascript"></script>
+          <script>
+          $(function() {
+          var pull    = $('#pull');
+          menu    = $('nav ul');
+          menuHeight  = menu.height();
+          $(pull).on('click', function(e) {
+          e.preventDefault();
+          menu.slideToggle();
+          });
+          $(window).resize(function(){
+          var w = $(window).width();
+          if(w > 320 && menu.is(':hidden')) {
+          menu.removeAttr('style');
+          }
+          });
+          });
+          </script>
+        </head>
+        <body>
+          <div id="wrapper">
+            <header>
+              <section id="title">
+              </section>
+              <nav class="menu">
+                <ul class="menu">
+                  <li><a href="index.php">SITE HOME</a></li>
+                  <li><a href="about.html">ABOUT KSP</a></li>
+                  <li><a href="products.html">PRODUCTS</a></li>
+                  <li><a href="innovation.html">INNOVATION</a></li>
+                  <li><a href="Testimonials.html">TESTIMONIALS</a></li>
+                  <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+              <a href="#" id="pull">Menu</a> </nav>
+            </header>
+            
+            <style type="text/css">
+            body{
+            overflow: hidden;
+            overflow-y:auto;
+            padding-bottom: 50px;
+            }
+            .project{
+            width: 80%;
+            margin: auto;
+            margin-top:40px;
+            }
+            .project-details{
+            width:60%;
+            min-height: 200px;
+            float: left;
+            }
+            .selector-container{
+            
+            bottom: 20px;
+            width: 300px;
+            margin: 25px auto;
+            }
+            .cat-selector{
+            /*width: 40%;*/
+            padding-top:65px;
+            }
+            .cat-selector2{
+            /*width: 40%;*/
+            padding-top:15px;
+            }
+            .project-details h1{
+            padding: 0px;
+            margin: 0px;
+            margin-bottom: 20px;
+            }
+            .project-details p{
+            font-size: 14px;
+            line-height: 26px;
+            }
+            .portfolio-items{
+            width: 80%;
+            margin:auto;
+            margin-top: 30px;
+            }
+            
+            /*Responsive Grid*/
+            .grid ul{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+            }
+            .grid ul li{
+            list-style-type: none;
+            margin: -3px -2px;
+            padding: 0px;
+            transition:all 0.2s ease;
+            position: relative;
+            cursor: pointer;
+            }
+            .grid ul li img{
+            width: 100%;
+            float: left;
+            }
+            .grid ul li p{
+            width: 100%;
+            margin: 5%;
+            float: left;
+            }
+            /*Mixitup*/
+            .mix{
+            opacity: 0;
+            display: none;
+            }
+            
+            /* Media Queries */
+            /* Mobile Portrait Size */
+            @media only screen and (max-width: 959px) {
+            
+            }
+            </style>
+          </head>
+          <body>
+            
+            <div id="tight2">
+              <div class="buyers">
+                <p>At Kencon Specialty Products we sell a variety of RV, Automotive parts, and accessories. Three major suppliers that we deal directly with are Suspa, Buyer's Products, and Scorpion. To learn more about our exclusive offerings feel free to click on their logos below to be redirected.</p>
+              </div>
+              <div  class= "container2">
+                <a href="http://www.scorpioncoatings.com/"><img  src="http://i.imgur.com/l8EdSvy.jpg" width="170" ></a>
+                <a href="https://drive.google.com/file/d/0BznKuQvWckvORVR6NlVzY25IY28/edit?usp=sharing">
+                <img  class="middle-img"src="http://i.imgur.com/0fWbyO5.png" width="170"></a>
+                <a href="http://www.buyersproducts.com/Product-Categories/"><img src="http://i.imgur.com/DTJHJpO.png" width="170" ></a>
+              </div>
+            </div>
+            <div class="selector-container">
+              <div class="cat-selector">
+                <div class="search_auto">
+                  <h1><strong>Search</strong> parts</h1>
+                  <select class="tags">
+                    <option value="">SELECT CATEGORY</option>
+                    <option value="mix">ALL</option>
+                    <option value="cat0">Category 0</option>
+                    <option value="cat1">Category 1</option>
+                    <option value="cat2">Category 2</option>
+                    <option value="cat3">Category 3</option>
+                  </select>
+                  <div class="cat-selector2">
+                    <select class="tags">
+                      <option value="">SELECT SPECIFIC PART</option>
+                      <option value="mix">ALL</option>
+                      <option value="cat12">Specific Part 1</option>
+                      <option value="cat9">Specific Part 2</option>
+                      <option value="cat10">Specific Part 3</option>
+                      <option value="cat11">Specific Part 4</option>
+                    </select>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div style="clear:both"></div>
+            <div class="portfolio-items grid">
+              <ul id="grid-items">
+                <li class="mix cat0" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/C0T8jMP.jpg"/></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat1" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/YtIzvaB.jpg" title="Hosted by imgur.com" /></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat2" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/4ViI5nH.jpg" title="Hosted by imgur.com" /></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat1" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/Hyc4dPc.jpg" title="Hosted by imgur.com"/></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat1 cat2" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/VIbN3sM.jpg" title="Hosted by imgur.com"/></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat2" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/ruBCeVo.jpg" title="Hosted by imgur.com"/></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat1 cat11" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/NHKPmSq.jpg" title="Hosted by imgur.com"/></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat2 cat9" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/lAPjfDj.jpg" title="Hosted by imgur.com"/></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat1 cat10" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/xgN06Sl.jpg" title="Hosted by imgur.com"/></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat1 cat9" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/znyaJGq.jpg" title="Hosted by imgur.com"/></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat2 cat12" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/rx5skrN.jpg" title="Hosted by imgur.com"/></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat3" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/1j4JtVO.jpg" title="Hosted by imgur.com"/></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat1" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/RudcEJY.jpg" title="Hosted by imgur.com"/></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat3" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/GtEAJah.jpg" title="Hosted by imgur.com"/></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat1" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/L2Lmu8W.jpg" title="Hosted by imgur.com"/></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat3" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/lfYFcU0.jpg" title="Hosted by imgur.com"/></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat1" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/4yTdXIH.jpg" title="Hosted by imgur.com"/></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat3" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/SLwWkv7.jpg" title="Hosted by imgur.com"/></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat2" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/YFKhWVL.jpg" title="Hosted by imgur.com"/></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                <li class="mix cat2" >
+                  <a class="test" rel="group" href="http://farm4.staticflickr.com/3818/9036037912_83576fe5ab_b.jpg"title="You wish you were here"><img src="http://i.imgur.com/GYjocR3.jpg" title="Hosted by imgur.com"/></a><p>
+                  <STRONG>Title:</STRONG> lorem ipsum
+                  <br> <STRONG>Part #:</STRONG> 00-0000</p>
+                </li>
+                
+                
+              </ul>
+            </div>
+            <footer>
+              <h2>KENCON SPECIALTY PRODUCTS</h2>
+              <h3>19974 County Road 6</h3>
+              <h3>Bristol, Indiana 46507</h3>
+              <h6>&copy;2014 <a href="http://crowdsurfermedia.com/home.html">Crowd Surfer Media</a></h6>
+            </footer>
+          </div>
+          <script type="text/javascript">
+          var minWidth=230;
+          $(document).ready(function(){
+          //initialize mixitup
+          $('#grid-items').mixitup({});
+          //initialize FancySelect
+          $(".tags").fancySelect().on("change",function(){
+          item = $(this).val();
+          $('#grid-items').mixitup('filter',item);
+          });
+          //handle the responsiveness of the grid & the page
+          $(window).resize($.debounce(250,function(){
+          var w = $(".grid").width();
+          var numberOfItems = parseInt(w/minWidth);
+          var itemWidthinPercentage = 100/numberOfItems;
+          $(".grid ul li").css({width:itemWidthinPercentage+"%"});
+          $('#grid-items').mixitup('sort','random');
+          }));
+          $(window).trigger("resize");
+          //attach an event listener to each list item
+          $(".grid ul").delegate("li","click",function(){
+          var src = $(this).find("img").attr("src");
+          
+          });
+          });
+          </script>
+          
+          <script type="text/javascript">
+          $(document).ready(function() {
+          $(".test").fancybox({
+          openEffect : 'none',
+          closeEffect : 'none',
+          helpers : {
+          title : {
+          type : 'inside'
+          }
+          }
+          
+          });
+          });
+          </script>
+        </body>
+      </html>
