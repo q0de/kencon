@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://michaelagrande.herokuapp.com/testimonials.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title>Kencon Testimonials</title>
+	<link href="./Kencon Testimonials_files/khc_global.css" rel="stylesheet" type="text/css">
+	<link href="./Kencon Testimonials_files/normalize.css" rel="stylesheet" type="text/css">
+	<link href="./Kencon Testimonials_files/css" rel="stylesheet" type="text/css">
+	<link href="./Kencon Testimonials_files/css(1)" rel="stylesheet" type="text/css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<script src="./Kencon Testimonials_files/jquery.min.js"></script><style type="text/css"></style>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+	</head>
+
+	<body>
+    <div id="wrapper">
+      <header>
+        <section id="title"> </section>
+        <nav class="menu">
+          <ul class="menu">
+            <li><a href="http://michaelagrande.herokuapp.com/index.php">SITE HOME</a></li>
+            <li><a href="http://michaelagrande.herokuapp.com/about.html">ABOUT KSP</a></li>
+            <li><a href="http://michaelagrande.herokuapp.com/products.html">PRODUCTS</a></li>
+            <li><a href="http://michaelagrande.herokuapp.com/innovation.html">INNOVATION</a></li>
+            <li><a href="./Kencon Testimonials_files/Kencon Testimonials.html">TESTIMONIALS</a></li>
+            <li><a href="http://michaelagrande.herokuapp.com/contact.html">CONTACT US</a></li>
+          </ul>
+          <a href="http://michaelagrande.herokuapp.com/testimonials.html#" id="pull">Menu</a></nav>
+      </header>
+      <div id="testimonials">
+      <p>With almost 30 years of serving the RV industry nationally, as well as within the local community, we have always strived to build long-lasting business partnerships.</p>
+      <img src="./Kencon Testimonials_files/filler.jpg" alt="">
+      <p>Through professional business ethics, product credibility, and exceptional customer service, Kencon has become a favorite wholesaler among suppliers. See who proudly endorses Kencon in the Northern Indiana RV Industry!</p>
+
+<h3><em>“We’ve worked with Kencon for over 20 years and have yet to find another supplier as responsive and quick with last minute requests”</em> – Jen, account manager at Jayco</h3>
+
+<h3><em>“Always on time!”</em> – Greg, PM at Forrest River</h3>
+
+<h3><em>“They always keep us up to date on new products and are rarely out of the inventory that we need”</em> – Frank, Vice President at Hartland RV</h3>
+</div>
+      <footer>
+        <h2>KENCON SPECIALTY PRODUCTS</h2>
+        <h3>19974 County Road 6</h3>
+        <h3>Bristol, Indiana 46507</h3>
+        <h6>©2014 <a href="http://crowdsurfermedia.com/home.html">Crowd Surfer Media</a></h6>
+      </footer>
+    </div>
+
+
+</body></html>
