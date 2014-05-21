@@ -343,10 +343,15 @@ footer {
 	position: relative;
 }
 img {
-	/*max-width: 100% !important;
+	max-width: 100% !important;
 	height: auto;
-	display: block;*/
-	padding: 1em;
+	display: block;
+	
+}
+.container2 img{
+	height: auto;
+	display: inline-block;
+padding: 1em;
 }
 
 @media screen and (max-width: 768px) {

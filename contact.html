@@ -1,0 +1,71 @@
+
+<!doctype html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Kencon Innovation</title>
+	<link href="/css/khc_global.css" rel="stylesheet" type="text/css">
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,700,700italic,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:800italic' rel='stylesheet' type='text/css'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+	</head>
+
+	<body>
+    <div id="wrapper">
+      <header>
+        <section id="title"> </section>
+        <nav class="menu">
+          <ul class="menu">
+            <li><a href="index.php">SITE HOME</a></li>
+            <li><a href="about.html">ABOUT KSP</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="innovation.html">INNOVATION</a></li>
+            <li><a href="testimonials.html">TESTIMONIALS</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+          </ul>
+          <a href="#" id="pull">Menu</a> </nav>
+      </header>
+      <div id="contact">
+        <h4>Monday - Friday 8-4 EST</h4>
+        <h3>email us: info@kencon.us</h3>
+        <div><h3><em><a href="https://www.facebook.com/Kencon.us" target="_blank" style="color: white; text-decoration:none;"">Find us on Facebook!</a></em></h3>
+        <a href="https://www.google.com/maps/preview#!q=Ken+Con+Hardware+Corporation%2C+County+Road+6%2C+Bristol%2C+IN&data=!1m4!1m3!1d1727!2d-85.8477691!3d41.7241565!2m1!1e3!4m15!2m14!1m13!1s0x8816e42b474536cf%3A0xf1dad83a66d5113a!3m8!1m3!1d1257!2d-85.850848!3d41.723489!3m2!1i1597!2i891!4f35!4m2!3d41.723648!4d-85.850848&fid=7" title="Google Map Business Location" target="new" style="text-decoration:none;">
+        <h2 style="font-size: 1.5em; color: #95C93D; font-style:italic; text-decoration: none;">Click here to see our exact location.</h2>
+        </a></div>
+        <h5><em>If you have a product inquiry, call us directly at:</em></h5>
+        <h3>574-848-5252</h3>
+        <div id="phone"><a class="mobilesOnly" href="tel:5748485252">(574) 848-5252</a></div>
+       
+      </div><footer>
+          <h2>KENCON SPECIALTY PRODUCTS</h2>
+          <h3>19974 County Road 6</h3>
+          <h3>Bristol, Indiana 46507</h3>
+          <h6>&copy;2014 <a href="http://crowdsurfermedia.com/home.html">Crowd Surfer Media</a></h6>
+        </footer>
+    </div>
+</body>
+</html>
