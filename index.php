@@ -11,6 +11,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+ <link href="/css/fancyselect.css" rel="stylesheet">
+    <link href="/css/jquery.fancybox.css" rel="stylesheet">
+    <link href="/css/jquery.fancybox-buttons.css" rel="stylesheet">
+    <link href="/css/jquery.fancybox-thumbs.css rel="stylesheet"" type="text/css" media="screen" >
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script>
     $(function() {
@@ -40,7 +46,7 @@
         </section>
         <nav class="menu">
           <ul class="menu">
-            <li><a href="index.html">SITE HOME</a></li>
+            <li><a href="index.php">SITE HOME</a></li>
             <li><a href="about.html">ABOUT KSP</a></li>
             <li><a href="products.html">PRODUCTS</a></li>
             <li><a href="innovation.html">INNOVATION</a></li>
