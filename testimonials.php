@@ -62,12 +62,13 @@
 
 <h3><em>“They always keep us up to date on new products and are rarely out of the inventory that we need”</em> – Frank, Vice President at Hartland RV</h3>
 </div>
-      <footer>
-        <h2>KENCON SPECIALTY PRODUCTS</h2>
-        <h3>19974 County Road 6</h3>
-        <h3>Bristol, Indiana 46507</h3>
-        <h6>©2014 <a href="http://crowdsurfermedia.com/home.html">Crowd Surfer Media</a></h6>
-      </footer>
+    <footer>
+      <h2>KENCON SPECIALTY PRODUCTS</h2>
+      <h3>P.O. Box 737</h3>
+      <h3>Fax# 574-848-7674</h3>
+      <h3>19974 County Road 6, Bristol, IN 46507</h3>
+      <h6>&copy;2014</h6>
+    </footer>
     </div>
 
 

@@ -37,6 +37,9 @@ font-size: 12px;
 * {
 	padding: 0px;
 	margin: 0px;
+	-webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-o-font-smoothing: antialiased;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 }
@@ -57,7 +60,7 @@ body {
 	max-width: 1200px;
 	min-width: 200px;
 	background-color: #336697;
-	background: rgba(51, 102, 151, 0.75); /* 75% transparent */
+	background: rgba(51, 102, 151, 0.95); /* 75% transparent */
 	position: relative;
 }
 

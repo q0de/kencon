@@ -53,18 +53,19 @@
           <a href="#" id="pull">Menu</a> </nav>
       </header>
       <div id="text">
-        <h5>Kencon Specialty Products is a leading wholesale supplier to the RV Industry, carrying products such as ball studs, gas struts, brackets, hinges, door holders, grommets, end caps, knobs, end fittings and more!</h5>
+        <h5>Kencon Specialty Products is a an innovative wholesale supplier to the RV Industry, carrying products such as locks, gas struts, brackets, hinges, door holders, grommets, end caps, knobs, end fittings and more!</h5>
         <h4><em>Please be our guest browsing this site.</em></h4>
         <h5><em>If you have a product inquiry, call us directly at:</em></h5>
         <h3>574-848-5252</h3>
          <div id="phone"><a class="mobilesOnly" href="tel:5748485252">(574) 848-5252</a></div>
       </div>
-      <footer>
-        <h2>KENCON SPECIALTY PRODUCTS</h2>
-        <h3>P.O. Box 737</h3>
-        <h3>Bristol, Indiana 46507</h3>
-        <h6>&copy;2013</h6>
-      </footer>
+    <footer>
+      <h2>KENCON SPECIALTY PRODUCTS</h2>
+      <h3>P.O. Box 737</h3>
+      <h3>Fax# 574-848-7674</h3>
+      <h3>19974 County Road 6, Bristol, IN 46507</h3>
+      <h6>&copy;2014</h6>
+    </footer>
     </div>
 </body>
 </html>
